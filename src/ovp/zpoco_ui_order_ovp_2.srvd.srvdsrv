@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition: Order OVP'
+define service Zpoco_ui_order_ovp_2 {
+  expose zpoco_c_order_global_filter as GlobalFilterForOrder;
+  expose zpoco_c_ovp_cards_order as CardsForOrder;
+}
